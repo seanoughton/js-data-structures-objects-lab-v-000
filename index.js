@@ -17,6 +17,6 @@ function deleteFromDriverByKey(obj, key) {
   //deletes `key` from a clone of driver and returns the new driver (it is non-destructive)
   const newObj = { ...obj };
   //console.log(key);
-  delete newObj.name
+  delete newObj.key
   return newObj;
 }
